@@ -1,0 +1,75 @@
+/* تنسيق الجسم */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* البطاقة */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* الصورة الشخصية */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* النصوص */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.job-title {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 10px 0 20px;
+}
+
+/* روابط التواصل الاجتماعي */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2e7d32;
+    text-decoration: underline;
+}
